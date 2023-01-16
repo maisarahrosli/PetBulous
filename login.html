@@ -108,13 +108,13 @@
 
                 if(!keepLoggedIn){
                     sessionStorage.setItem('user', JSON.stringify(user));
-                    window.location="Index.html"
+                    window.location="index.html"
                 }
 
                 else{
                     localStorage.setItem('keepLoggedIn', 'yes');
                     localStorage.setItem('user', JSON.stringify(user));
-                    window.location="Index.html";
+                    window.location="index.html";
                 }
             }
 
